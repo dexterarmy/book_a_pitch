@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+}
+
+/* navigatio bar .................................................................... */
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  /* background: black; */
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: rgb(83, 73, 73);
+  color: white;
+}
+/* .................................................................................................... */
+
+/* book a pitch */
+
+h1 {
+  color: rgb(186, 189, 56);
+  text-align: center;
+  font-size: 30px;
+}
+
+.book-pitch {
+  background-image: url(./img/football-1.webp);
+  padding-top: 30px;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px rgb(241, 245, 243); */
+  box-shadow: 0 0 30px 0 white;
+  border-radius: 7px;
+
+  width: 90%;
+  margin: 10px auto;
+}
+
+.book input {
+  height: 50px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ..................................................................................... */
+/* features */
+.features {
+  height: 700px;
+  width: 100%;
+  background-color: #444;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.features h4 {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.features-list h5 {
+  width: 80%;
+  margin: auto;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.features-list a {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-size: 20px;
+  box-shadow: 0 0 20px 0 wheat;
+}
+
+.fa-user,
+.fa-credit-card {
+  font-size: 40px;
+}
+/* .................................................................................................... */
+/* testimonials */
+.testimonials {
+  background-color: rgb(163, 190, 197);
+  height: 300px;
+  width: 100%;
+  color: black;
+}
+
+.testimonials h1 {
+  color: inherit;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.user {
+  border: 2px #ccc;
+  /* background-color: #eee; */
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px auto;
+  width: 85%;
+}
+
+.user::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.user img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  height: 60px;
+  object-fit: cover;
+}
+
+.user p {
+  font-size: 15px;
+}
+/* .................................................................................................................. */
+/* footer */
+.footer {
+  height: 600px;
+  width: 100%;
+  background-color: #444;
+}
+
+.about {
+  padding: 20px;
+}
+
+.footer a {
+  color: antiquewhite;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.copyright {
+  color: #f3f3f3;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+/* ................................................................................................... */
